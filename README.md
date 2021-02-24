@@ -1,1 +1,1 @@
-# rsschool-cv
+https://MaxZay.github.io/rsschool-cv/cv
