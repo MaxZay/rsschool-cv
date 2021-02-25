@@ -4,9 +4,9 @@
 
 ### Contacts for communication
 
-- **Telephone number:** _+375291665043_
-- **Email:** *maximzay2017@gmail.com*
-- **Vk:** _[https://vk.com/mymakingstone](https://vk.com/mymakingstone)_
+- **_Telephone number:_** _+375291665043_
+- **_Email:_** *maximzay2017@gmail.com*
+- **_Vk:_** _[https://vk.com/mymakingstone](https://vk.com/mymakingstone)_
 
 ---
 
@@ -41,5 +41,13 @@ function findShort(s){
 ---
 
 ### Work experience
+
+---
+
+### Education
+
+**_Gomel State Technical University named after P.O.Sukhoi (2018 - now)_**
+**_Faculty:_** _Automated and Information Systems_
+**_Department:_** _Computer Science and Programming Technologies_
 
 ---
