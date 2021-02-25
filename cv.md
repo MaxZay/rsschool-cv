@@ -46,8 +46,8 @@ function findShort(s){
 
 ### Education
 
-**_Gomel State Technical University named after P.O.Sukhoi (2018 - now)_**
-**_Faculty:_** _Automated and Information Systems_
+**_Gomel State Technical University named after P.O.Sukhoi (2018 - now)_**  
+**_Faculty:_** _Automated and Information Systems_  
 **_Department:_** _Computer Science and Programming Technologies_
 
 ---
