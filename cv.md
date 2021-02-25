@@ -25,3 +25,21 @@ _I am patient, caln , easy to teach. My goal is to fing myself in the IT field. 
 - JS
 
 ---
+
+### Code example
+
+```
+function findShort(s){
+    s = s.split(" ")
+    s.sort(function(a, b){
+        return b.length - a.length
+    });
+    return s[s.length - 1].length
+}
+```
+
+---
+
+### Work experience
+
+---
