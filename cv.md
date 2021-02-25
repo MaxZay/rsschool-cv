@@ -51,3 +51,7 @@ function findShort(s){
 **_Department:_** _Computer Science and Programming Technologies_
 
 ---
+
+### English
+
+_A2_
