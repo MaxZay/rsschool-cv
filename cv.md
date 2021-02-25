@@ -15,3 +15,13 @@
 _I am patient, caln , easy to teach. My goal is to fing myself in the IT field. I'm just starting out and a don't have any experience yet, but i am ready to learn something new._
 
 ---
+
+### Skills
+
+- C++
+- C#
+- HTML
+- CSS
+- JS
+
+---
