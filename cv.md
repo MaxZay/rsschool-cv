@@ -4,8 +4,8 @@
 
 ### Contacts for communication
 
-- Telephone number: +375291665043
-- Email: maximzay2017@gmail.com
-- Vk: https://vk.com/mymakingstone
+- **Telephone number:** _+375291665043_
+- **Email:** *maximzay2017@gmail.com*
+- **Vk:** _[https://vk.com/mymakingstone](https://vk.com/mymakingstone)_
 
 ---
