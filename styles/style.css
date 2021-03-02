@@ -12,18 +12,21 @@ h1{
     color: wheat;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 h2{
     color: wheat;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 h3{
     color: wheat;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .wrapper{
@@ -55,6 +58,7 @@ h3{
 
 .avatar img{
     border-radius: 50%;
+    user-select: none;
 }
 
 .title{
@@ -92,6 +96,7 @@ h3{
 .skills > div > img{
     margin-top: auto;
     margin-bottom: auto;
+    user-select: none;
 }
 
 .plus{
@@ -123,6 +128,7 @@ main{
 
 .html > h3{
     margin-left: 15px;
+    user-select: none;
 }
 
 .css > img{
@@ -131,6 +137,7 @@ main{
 
 .css > h3{
     margin-left: 15px;
+    user-select: none;
 }
 
 .js > img{
@@ -139,6 +146,7 @@ main{
 
 .js > h3{
     margin-left: 15px;
+    user-select: none;
 }
 
 .git > img{
@@ -147,6 +155,7 @@ main{
 
 .git > h3{
     margin-left: 15px;
+    user-select: none;
 }
 
 .css{
@@ -189,4 +198,14 @@ main{
     width: 100%;
     height: 20%;
     background-color: #2a2226;
+}
+
+.footer_list{
+    user-select: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+    margin-top: 20px;
 }
