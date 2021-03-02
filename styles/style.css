@@ -4,7 +4,26 @@
 }
 
 body{
-    background-image: url(../assets/fonts/background.jpg);
+  /*  background-image: url(../assets/fonts/background.jpg);*/
+  background-color: #1c1719;
+}
+
+h1{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+h2{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
 }
 
 .wrapper{
@@ -24,7 +43,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 30%;
+    height: 35%;
+    background-color: rgb(61,41,50);
 }
 
 .avatar{
@@ -54,10 +74,11 @@ body{
 }
 
 .skills{
-    margin-top: 40px;
-    width: 20%;
+    width: 25%;
     display: flex;
     flex-direction: column;
+    background-color: rgb(46,31,37);
+    padding-top: 40px;
 }
 
 .sharp{
@@ -68,8 +89,7 @@ body{
     height: 70px;
 }
 
-.sharp h3{
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+.skills > div > img{
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -80,12 +100,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     height: 70px;
-}
-
-.plus h3{
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: -10px;
 }
 
 main{
@@ -100,6 +115,38 @@ main{
     flex-direction: row;
     justify-content: space-around;
     height: 70px;
+}
+
+.html > img{
+    margin-left: 11px;
+}
+
+.html > h3{
+    margin-left: 15px;
+}
+
+.css > img{
+    margin-left: 11px;
+}
+
+.css > h3{
+    margin-left: 15px;
+}
+
+.js > img{
+    margin-left: 11px;
+}
+
+.js > h3{
+    margin-left: 15px;
+}
+
+.git > img{
+    margin-left: 11px;
+}
+
+.git > h3{
+    margin-left: 15px;
 }
 
 .css{
@@ -130,4 +177,16 @@ main{
     flex-direction: row;
     justify-content: space-around;
     height: 70px;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    background-color: #382e32;
+}
+
+.links{
+    width: 100%;
+    height: 20%;
+    background-color: #2a2226;
 }
