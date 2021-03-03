@@ -24,13 +24,35 @@ h3{
     user-select: none;
 }
 
-p{
+h4{
     color: wheat;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     user-select: none;
-    font-size: 20px;
+    letter-spacing: 2px;
+    user-select: none;
+    font-size: 16px;
     text-align: justify;
+}
+
+h5{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+    letter-spacing: 2px;
+    user-select: none;
+    font-size: 15px;
+}
+
+h6{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+    letter-spacing: 2px;
+    user-select: none;
+    font-size: 13px;
 }
 
 .wrapper{
@@ -75,6 +97,7 @@ p{
 }
 
 .skills__title{
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, sans-serif;
@@ -86,6 +109,7 @@ p{
     flex-direction: column;
     background-color: rgb(46,31,37);
     padding-top: 10px;
+    justify-content: space-between;
 }
 
 .sharp{
@@ -94,9 +118,21 @@ p{
     flex-direction: row;
     justify-content: space-around;
     height: 70px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.sharp > h5{
+    padding: auto;
 }
 
 .skills > div > img{
+    margin-top: auto;
+    margin-bottom: auto;
+    user-select: none;
+}
+
+.skills > div{
     margin-top: auto;
     margin-bottom: auto;
     user-select: none;
@@ -138,7 +174,7 @@ main{
     margin-left: 11px;
 }
 
-.css > h3{
+.css > h4{
     margin-left: 15px;
     user-select: none;
 }
@@ -147,7 +183,7 @@ main{
     margin-left: 11px;
 }
 
-.js > h3{
+.js > h4{
     margin-left: 15px;
     user-select: none;
 }
@@ -156,7 +192,7 @@ main{
     margin-left: 11px;
 }
 
-.git > h3{
+.git > h4{
     margin-left: 15px;
     user-select: none;
 }
@@ -221,18 +257,19 @@ main{
     justify-content: space-between;
 }
 
-.info__aboutme h1{
+.info__aboutme h2{
     margin-top: 20px;
     text-align: center;
 }
 
-.info__aboutme p{
+.info__aboutme h5{
     margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: justify;
 }
 
-.info__education h1{
+.info__education h2{
     text-align: center;
     margin-bottom: 15px;
     margin-top: 20px;
@@ -243,7 +280,7 @@ main{
     padding-right: 15px;
 }
 
-.info__english h1{
+.info__english h2{
     text-align: center;
     margin-bottom: 15px;
     margin-top: 20px;
