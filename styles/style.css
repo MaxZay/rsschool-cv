@@ -1,0 +1,294 @@
+body{
+  background-color: #1c1719;
+}
+
+h1{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+    font-size: 28px;
+}
+
+h2{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+h3{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+h4{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+    letter-spacing: 2px;
+    user-select: none;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h5{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+    letter-spacing: 2px;
+    user-select: none;
+    font-size: 15px;
+}
+
+h6{
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    user-select: none;
+    letter-spacing: 2px;
+    user-select: none;
+    font-size: 13px;
+}
+
+.wrapper{
+    width: 800px;
+    height: 100%;  
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    background-color: rgb(61,41,50);
+}
+
+.avatar{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar img{
+    border-radius: 50%;
+    user-select: none;
+}
+
+.title{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.title h2{
+    padding-top: 10px;
+}
+
+.skills__title{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.skills{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46,31,37);
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.sharp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.sharp > h5{
+    padding: auto;
+}
+
+.skills > div > img{
+    margin-top: auto;
+    margin-bottom: auto;
+    user-select: none;
+}
+
+.skills > div{
+    margin-top: auto;
+    margin-bottom: auto;
+    user-select: none;
+}
+
+.plus{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    margin-top: -10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.html{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.html > img{
+    margin-left: 11px;
+}
+
+.html > h3{
+    margin-left: 15px;
+    user-select: none;
+}
+
+.css > img{
+    margin-left: 11px;
+}
+
+.css > h4{
+    margin-left: 15px;
+    user-select: none;
+}
+
+.js > img{
+    margin-left: 11px;
+}
+
+.js > h4{
+    margin-left: 15px;
+    user-select: none;
+}
+
+.git > img{
+    margin-left: 11px;
+}
+
+.git > h4{
+    margin-left: 15px;
+    user-select: none;
+}
+
+.css{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.js{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.skills > div > h3{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.git{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    background-color: #382e32;
+}
+
+.links{
+    width: 100%;
+    height: 100%;
+    background-color: #2a2226;
+}
+
+.footer_list{
+    user-select: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;  
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info__aboutme h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info__aboutme h5{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.info__education h2{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.info__education p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info__english h2{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.info__english p{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
